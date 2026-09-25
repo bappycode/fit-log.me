@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f1115;        /* page background */
+  --color-ink-deep: #0c0d10;   /* header */
+  --color-foot: #090a0d;       /* footer */
+  --color-panel: #15171d;      /* cards, hero */
+  --color-panel-2: #13161d;    /* metrics card, dropdown */
+  --color-line: #232732;       /* hairline borders */
+  --color-line-soft: #20242e;  /* inner dividers */
+  --color-lime: #ccff00;       /* accent */
+  --color-lime-soft: #1a2312;  /* active nav pill */
+  --color-muted: #9ca3af;
+  --color-muted-2: #8a92a0;
+
+  --font-display: var(--font-oswald), "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-ink);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-ink);
+  color: #fff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-lime);
+  color: #000;
+}
