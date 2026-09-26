@@ -11,7 +11,7 @@ export default async function Library() {
       <div className="rounded-xl border border-white/10 bg-[#111317]/50 px-4 py-16 text-center">
         <h3 className="font-display text-xl font-bold">COULDN&apos;T LOAD WORKOUTS</h3>
         <p className="mt-2 text-sm text-muted">
-          The workout API is not responding. Check your connection and refresh the page.
+          The workout API is not responding. Please check your connection and refresh the page.
         </p>
       </div>
     );
