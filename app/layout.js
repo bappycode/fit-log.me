@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
                 background: "#15171d",
                 color: "#fff",
                 border: "1px solid #232732",
-                fontSize: "14px",
+                fontSize: "12px",
               },
               success: { iconTheme: { primary: "#ccff00", secondary: "#0f1115" } },
             }}
